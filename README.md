@@ -290,8 +290,9 @@ This chatbot system provides structured, policy-driven, and AI-enhanced customer
 	•	Implement real function execution instead of mocked values.
 	•	Extend policy retrieval to dynamically update via API.
 	•	Enhance LLM prompt engineering with few-shot examples.
-    •   Integrate with a nice looking frontend and UI.
-    •   Implement caches according to use cases
+    	•   	Integrate with a nice looking frontend and UI.
+    	•   	Implement caches according to use cases.
+     	•   	Implement chunks and overlapping to RAG service to handle large policies text documents.
 
 ## 📜 License
 
