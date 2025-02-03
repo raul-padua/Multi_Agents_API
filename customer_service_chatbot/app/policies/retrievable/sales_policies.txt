@@ -1,0 +1,7 @@
+Policy: Order Discount Rules
+- Discounts apply only if the order value exceeds $100.
+- Bulk discounts (10% off) apply for 10+ items.
+
+Policy: Order Cancellation
+- Orders can only be canceled if they haven’t been shipped.
+- Refunds take 5 to 7 business days to process.

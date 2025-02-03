@@ -1,0 +1,12 @@
+Policy: Order Tracking
+- Customers can track their orders using the tracking number provided in the confirmation email.
+- If an order is delayed, customer support must provide an estimated delivery date.
+
+Policy: Refund Policy
+- Refunds can be processed only if the item is returned in its original condition.
+- Refund requests must be made within 30 days of receiving the product.
+- Refunds are credited back to the original payment method within 5 to 7 business days.
+
+Policy: Cancellation Requests
+- Orders can be canceled only if they have not yet been processed for shipping.
+- If an order is already shipped, customers must wait until delivery and initiate a return.

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: customer_service_chatbot-app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    env_file:
+      - .env
+    networks:
+      - chatbot_network
+
+  db:
+    image: postgres:15
+    container_name: customer_service_chatbot-db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Raulsp2025
+      POSTGRES_DB: chatbot_db
+    ports:
+      - "5432:5432"
+    networks:
+      - chatbot_network
+
+networks:
+  chatbot_network:
+    driver: bridge

@@ -1,0 +1,15 @@
+Policy: Password Reset
+- Users can request a password reset through the ‘Forgot Password’ link on the login page.
+- If a user does not receive a password reset email, support should verify their registered email address.
+- Support agents are not allowed to manually reset a password but can guide users through the process.
+
+Policy: Troubleshooting Internet Connectivity
+- Before scheduling a technician, customers must follow basic troubleshooting steps:
+  1. Restart the router and modem.
+  2. Check if the issue persists on multiple devices.
+  3. Verify if there is an outage in the area.
+
+Policy: Technician Appointments
+- Technicians are available for appointments Monday to Friday, 9 AM - 6 PM.
+- Customers must provide their availability and a valid address.
+- If a technician visit is required, support agents must provide a confirmation email with the appointment details.
