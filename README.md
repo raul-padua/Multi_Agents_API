@@ -1,6 +1,6 @@
 ## **Customer Service Chatbot API** 🚀
 
-This project is a customer service chatbot handling inquiries via specialized agents (Sales, Technical Support, Customer Support). It integrates LLMs (GPT-4/Claude), follows a hybrid policy approach (strict enforcement + RAG retrieval), and is accessible via a REST API.
+This project is a customer service chatbot handling inquiries via specialized agents (Sales, Technical Support, Customer Support). It integrates LLMs (GPT-4), follows a hybrid policy approach (strict enforcement + RAG retrieval), and is accessible via a REST API.
 
 ## 📌 **Features** 
 	•	Specialized Agents: Sales, Technical Support, and Customer Support
