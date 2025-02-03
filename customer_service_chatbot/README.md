@@ -4,7 +4,7 @@ This project is a customer service chatbot handling inquiries via specialized ag
 
 ## 📌 **Features** 
 	•	Specialized Agents: Sales, Technical Support, and Customer Support
-	•	LLM Integration: GPT-4 or Claude
+	•	LLM Integration: GPT-4
 	•	Hybrid Policy System: Code-based + RAG retrieval (ChromaDB)
 	•	REST API: FastAPI framework
 	•	Docker Support: Containerized services (FastAPI + PostgreSQL)
