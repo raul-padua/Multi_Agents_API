@@ -229,31 +229,32 @@ tests/test_policies.py ..✅
 tests/test_api.py ....✅
 ```
 
-## 📂**Project Structure**
+## 📂**Project Structure** `customer_service_chatbot/
 
-The repository follows a modular structure for clarity and maintainability.
-customer_service_chatbot/
-│── app/                       # Core application directory
-│   ├── agents/                # Specialized agents (Sales, Tech Support, Customer Support)
-│   ├── api/                   # API route definitions (FastAPI)
-│   ├── models/                # Database models (SQLAlchemy)
-│   ├── policies/              # Policy rules (Hybrid: Code + RAG)
-│   ├── services/              # Core services (LLM, RAG, Database, Conversation Management)
-│   ├── tests/                 # Unit and integration tests
-│   ├── init.py            # Package initializer
-│   ├── main.py                # FastAPI entry point
-│── chroma_db/                 # Storage for ChromaDB (RAG-based policy retrieval)
-│── .dockerignore              # Ignore unnecessary files in Docker builds
-│── .env                       # Environment variables configuration
-│── .gitignore                 # Git ignore file for sensitive & unnecessary files
-│── chatbot_db_backup.dump      # Database backup file
-│── config.py                   # Configuration settings
-│── docker-compose.yml          # Docker Compose for multi-container setup
-│── Dockerfile                  # Docker setup for the application
-│── logfile                     # Application log file
-│── README.md                   # Documentation
-│── requirements.txt             # Python dependencies
-│── venv/                        # Python virtual environment (local development)
+| **Directory / File**             | **Description**                                        |
+|----------------------------------|--------------------------------------------------------|
+| `customer_service_chatbot/`      | Root directory of the project.                        |
+| ├── `app/`                       | Core application directory.                           |
+| │   ├── `agents/`                | Specialized agents (Sales, Tech Support, Customer Support). |
+| │   ├── `api/`                   | API route definitions (FastAPI).                     |
+| │   ├── `models/`                | Database models (SQLAlchemy).                        |
+| │   ├── `policies/`              | Policy rules (Hybrid: Code + RAG).                   |
+| │   ├── `services/`              | Core services (LLM, RAG, Database, Conversation Management). |
+| │   ├── `tests/`                 | Unit and integration tests.                          |
+| │   ├── `__init__.py`            | Package initializer.                                 |
+| │   ├── `main.py`                | FastAPI entry point.                                 |
+| ├── `chroma_db/`                 | Storage for ChromaDB (RAG-based policy retrieval).  |
+| ├── `.dockerignore`              | Ignore unnecessary files in Docker builds.          |
+| ├── `.env`                       | Environment variables configuration.                 |
+| ├── `.gitignore`                 | Git ignore file for sensitive & unnecessary files.  |
+| ├── `chatbot_db_backup.dump`     | Database backup file.                                |
+| ├── `config.py`                  | Configuration settings.                              |
+| ├── `docker-compose.yml`         | Docker Compose for multi-container setup.           |
+| ├── `Dockerfile`                 | Docker setup for the application.                   |
+| ├── `logfile`                    | Application log file.                                |
+| ├── `README.md`                  | Documentation.                                       |
+| ├── `requirements.txt`           | Python dependencies.                                |
+| ├── `venv/`                      | Python virtual environment (local development).     |
 
 ### 📌 **Key Directories & Files**
 | **Path**                 | **Description** |
