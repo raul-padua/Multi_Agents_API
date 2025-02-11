@@ -1,7 +1,7 @@
 import os
 
 # OpenAI API Key
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "sk-DRBPXKUwZTsXvHL_XRG5XjhX3jtLZkWcMwxRCv_RX5T3BlbkFJy4o-AIzAwGG4Iqt4V5frLuVSahhYwYq3lk__TmNLAA")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your-openai-key")
 
 # Database of PostgreSQL URL
-DATABASE_URL = "postgresql://postgres:Raulsp2025@db/chatbot_db"
+DATABASE_URL = "postgresql://postgres:your-postgres-key@db/chatbot_db"
